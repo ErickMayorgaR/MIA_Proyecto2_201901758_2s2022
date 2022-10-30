@@ -1,0 +1,11 @@
+<p>Enviando Peticion</p>
+
+<input type="text" id="texBox1" [(ngModel)]="textBox1"/>
+
+<button type="submit" (click)='getInformation()'>EnviarPeticion</button>
+
+<p>recibiendo peticion</p>
+
+<textarea>Enviado: {{textBox1}} 
+    El contenido de respuesta es:
+    {{response}} </textarea>

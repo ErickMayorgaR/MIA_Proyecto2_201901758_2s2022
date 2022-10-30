@@ -1,0 +1,12 @@
+//text box in angular?
+<input id="exchageRateDate" type="text" value="Sydney" ng-model="placeId" />
+
+
+<br>Welcome.<br>
+Place - <input type="text" value="Sydney" [(ngModel)]="placeId" />
+<button (click)="myFunc(placeId)" formtarget="_blank">Test</button>
+
+
+myFunc(num1) {
+  console.log(num1);//here you will get input value through ng-model
+}
